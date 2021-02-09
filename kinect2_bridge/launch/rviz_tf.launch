@@ -12,16 +12,16 @@
     name="kinect_tf"
     pkg="tf"
     type="static_transform_publisher"
-    args="2 0 1.04 0 0 3.141592 root kinect2_rgb_optical_frame 40" />
+    args="1.8 0 1.04 0 0 3.141592 root kinect2_rgb_optical_frame 40" />
 
 
-  <node
+  <!--node
     name="kinect_joint_state_publisher"
     pkg="joint_state_publisher"
     type="joint_state_publisher">
 	<remap from="robot_description" to="kinect_robot_description" />    
 	<remap from="joint_states" to="kinect_joint_states" />
-  </node>
+  </node-->
   <node
     name="kinect_robot_state_publisher"
     pkg="robot_state_publisher"
