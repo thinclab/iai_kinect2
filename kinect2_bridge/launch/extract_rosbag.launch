@@ -1,0 +1,8 @@
+<launch>
+
+<!-- This is just a test file. Change the filenames and topicnames appropriately before use -->
+  <node pkg="rosbag" type="play" name="rosbag" required="true" args="$(find image_view)/test.bag"/>
+  <node name="extract" pkg="image_view" type="extract_images" respawn="false" required="true" output="screen" cwd="ROS_HOME">
+    <remap from="image" to="/kinect2/hd/image_color"/>
+  </node>
+</launch>
