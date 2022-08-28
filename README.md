@@ -1,5 +1,7 @@
 # IAI Kinect2
 
+# FOR ROS NOETIC AND ABOVE, THIS DRIVER WILL NOT WORK. USE [THIS PACKAGE](https://github.com/prasuchit/iai_kinect2_opencv4) INSTEAD.
+
 ## Maintainer
 
 - [Thiemo Wiedemeyer](https://ai.uni-bremen.de/team/thiemo_wiedemeyer) <<wiedemeyer@cs.uni-bremen.de>>, [Institute for Artificial Intelligence](http://ai.uni-bremen.de/), University of Bremen
