@@ -10,9 +10,9 @@
 
   <node
     name="kinect_tf"
-    pkg="tf"
+    pkg="tf2_ros"
     type="static_transform_publisher"
-    args="1.65 0 0.965 0 0 3.141592 root kinect2_rgb_optical_frame 40" />
+    args="1.65 0 0.965 0 0 3.141592 root kinect2_rgb_optical_frame" />
 
 
   <!--node
